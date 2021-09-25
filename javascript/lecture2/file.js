@@ -1,5 +1,5 @@
+//you do not have to install fs package
+//fs package is already in the node for our usage
 let fs = require("fs");
-let f1 = "./f1.txt";
-let f2 = "./f2.txt";
-let readedText = fs.readFileSync(f1, "utf-8");
-fs.writeFileSync(f2, readedText, "utf-8");
+let readedText = fs.readFileSync("../lecture1/f3.txt", "utf-8");
+fs.writeFileSync("./f2.txt", readedText, "utf-8");

@@ -1,5 +1,5 @@
-1.functions
-2.arrays
-3.node and npm
-4.dependency
-5.play with files
+1.functions    [done]
+2.arrays       [done]
+3.node and npm (node package manager) [done]
+4.dependency   [done]
+5.play with files (read and write) f1  f2 [done]

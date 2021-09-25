@@ -1,10 +1,11 @@
-let inp = process.argv;
 let arr = [];
-let sizeOfArray = inp[2];
+let input = process.argv;
+// 0     1      2 3 4 5 6 7
+//node array.js 5 1 2 3 4 5
+let sizeOfArray = input[2];
 
 for (let i = 0; i < sizeOfArray; i++) {
-  arr[i] = inp[i + 3];
+  arr[i] = input[i + 3];
 }
-
-console.log("size of array is = ", arr.length);
-console.log(arr);
+console.log(arr); //[ '1', '2', '3', '4', '5' ]
+console.log(arr.length); //5
