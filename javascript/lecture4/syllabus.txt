@@ -1,0 +1,12 @@
+We will be Doing an activity 
+Create a big file through javascript code(above 1.5 GB)
+
+Learnings
+1. arr.push()                             [done]
+2. arr.join()                             [done]
+3. fs.appendFileSync()                    [done]
+4. Difference Between write and append    [done]
+
+
+Main Motive
+A Cool Project which will use this Big File.(Web Scrapping)
